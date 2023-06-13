@@ -1,5 +1,5 @@
 let movies = [
-    ["[좌충우돌금융센터] 0.예고편","https://youtu.be/VS4rbUm1Nso"],
+    ["[좌충우돌금융센터] 0. 예고편","https://youtu.be/w_ptRZrvhrI"],
     ["[좌충우돌금융센터] 1. 혐의거래의 향기","https://youtu.be/cD_ZoEd00HE"],
     ["[좌충우돌금융센터] 2. CTR점검 밸런스게임","https://youtu.be/hXtrLG7VqBs"],
     ["[좌충우돌금융센터] 3. PEPs 팩티바를 넘어라!","https://youtu.be/CUHgruQuw5M"],
