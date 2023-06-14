@@ -6,7 +6,7 @@ let movies = [
     ["[좌충우돌금융센터] 4. 이대리의 서류단속","https://youtu.be/23sO4UmNZbg"],
     ["[좌충우돌금융센터] 5. 위험한 조회","https://youtu.be/62IGisfbHNU"],
     ["[좌충우돌금융센터] 6. 제공하고, 설명하고, 확인하라","https://youtu.be/KTnVlHmZpTA"],
-    ["[좌충우돌금융센터] 7. 당신이 쉬는 사이에","https://youtu.be/iWAF1TNGA8U"],
+    ["[좌충우돌금융센터] 7. 당신이 쉬는 사이에","https://youtu.be/9ei-CF8peuw"],
     ["[좌충우돌금융센터] 8. 광고의 조건","https://youtu.be/gw5YFAX8YuE"],
     ["[좌충우돌금융센터] 9. 고발과 함께 사라지나","https://youtu.be/buMF1ufmOeQ"],
     ["[좌충우돌금융센터] 10. 투자의 공과 사","https://youtu.be/WwD6ovltkVY"]
