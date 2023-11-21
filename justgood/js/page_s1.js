@@ -1,3 +1,4 @@
+let page_title = "하나은행 내부통제교육 [좌충우돌금융센터]"
 let movies = [
     ["[좌충우돌금융센터] 0. 예고편","https://youtu.be/w_ptRZrvhrI"],
     ["[좌충우돌금융센터] 1. 혐의거래의 향기","https://youtu.be/cD_ZoEd00HE"],
@@ -12,10 +13,13 @@ let movies = [
     ["[좌충우돌금융센터] 10. 투자의 공과 사","https://youtu.be/WwD6ovltkVY"]
 ];
 
-$(document).ready(() => {
+$().ready(() => {
+    document.title = page_title;
+    $('h1').text = page_title;
+
     $(movies).each((idx, e) => {
         let image_num = (idx.toString()).padStart(2, 0)
-        $('#list').append(`<li><a href='${e[1]}'><img src='images/hana${image_num}.jpg'>${e[0]}</a></li>`);
+        $('ul').append(`<li><a href='${e[1]}'><img src='images/hana${image_num}.jpg'>${e[0]}</a></li>`);
     });
     $('img').each(e => {
         $(e).on('error', () => {
