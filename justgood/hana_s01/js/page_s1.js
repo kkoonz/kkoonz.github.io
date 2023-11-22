@@ -15,7 +15,7 @@ let movies = [
 
 $().ready(() => {
     document.title = page_title;
-    $('h1').text = page_title;
+    $('h1').text(page_title);
 
     $(movies).each((idx, e) => {
         let image_num = (idx.toString()).padStart(2, 0)

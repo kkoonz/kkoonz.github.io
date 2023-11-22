@@ -18,7 +18,7 @@ $().ready(() => {
 
     $(movies).each((idx, e) => {
         let image_num = (idx.toString()).padStart(2, 0)
-        $('ul').append(`<li><a href='${e[1]}'><img src='images/hana.s2.00.png' alt='${image_num}'>${e[0]}</a></li>`);
+        $('ul').append(`<li><a href='${e[1]}'><img src='images/hana.s2.${image_num}.jpg'>${e[0]}</a></li>`);
     });
     $('img').each(e => {
         $(e).on('error', () => {
