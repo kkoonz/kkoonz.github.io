@@ -9,7 +9,8 @@ let movies = [
 ];
 
 $().ready(() => {
-    document.title = page_title;
+    // title 및 meta.title 문자열은 직접 html 변경 필요
+    //document.title = page_title;
     $('h1').text(page_title);
 
     $(movies).each((idx, e) => {
